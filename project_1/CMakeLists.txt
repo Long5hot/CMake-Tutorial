@@ -1,9 +1,15 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(prj_Name)
+project(Tutorial VERSION 1.0)
 
-set(CMAKE_CXX_STANDARD 11)
+configure_file(TutorialConfig.h.in TutorialConfig.h)
+
+
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(exe_name DynamicsizeArray.cpp)
+add_executable(Tutorial DynamicsizeArray.cpp)
 
+target_include_directories(Tutorial PUBLIC
+                           "${PROJECT_BINARY_DIR}"
+                           )

@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named exe_name
+# Target rules for targets named Tutorial
 
 # Build rule for target.
-exe_name: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exe_name
-.PHONY : exe_name
+Tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tutorial
+.PHONY : Tutorial
 
 # fast build rule for target.
-exe_name/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe_name.dir/build.make CMakeFiles/exe_name.dir/build
-.PHONY : exe_name/fast
+Tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
+.PHONY : Tutorial/fast
 
 DynamicsizeArray.o: DynamicsizeArray.cpp.o
 .PHONY : DynamicsizeArray.o
 
 # target to build an object file
 DynamicsizeArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe_name.dir/build.make CMakeFiles/exe_name.dir/DynamicsizeArray.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o
 .PHONY : DynamicsizeArray.cpp.o
 
 DynamicsizeArray.i: DynamicsizeArray.cpp.i
@@ -142,7 +142,7 @@ DynamicsizeArray.i: DynamicsizeArray.cpp.i
 
 # target to preprocess a source file
 DynamicsizeArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe_name.dir/build.make CMakeFiles/exe_name.dir/DynamicsizeArray.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.i
 .PHONY : DynamicsizeArray.cpp.i
 
 DynamicsizeArray.s: DynamicsizeArray.cpp.s
@@ -150,7 +150,7 @@ DynamicsizeArray.s: DynamicsizeArray.cpp.s
 
 # target to generate assembly for a file
 DynamicsizeArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/exe_name.dir/build.make CMakeFiles/exe_name.dir/DynamicsizeArray.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.s
 .PHONY : DynamicsizeArray.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... exe_name"
+	@echo "... Tutorial"
 	@echo "... DynamicsizeArray.o"
 	@echo "... DynamicsizeArray.i"
 	@echo "... DynamicsizeArray.s"

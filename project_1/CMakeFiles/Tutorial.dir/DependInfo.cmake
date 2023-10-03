@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/krushnp/academia/cmake/project_1/DynamicsizeArray.cpp" "CMakeFiles/exe_name.dir/DynamicsizeArray.cpp.o" "gcc" "CMakeFiles/exe_name.dir/DynamicsizeArray.cpp.o.d"
+  "/home/krushnp/academia/cmake/project_1/DynamicsizeArray.cpp" "CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o" "gcc" "CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o.d"
   )
 
 # Targets to which this target links.
