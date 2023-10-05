@@ -151,4 +151,5 @@ CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o: \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
- /home/krushnp/academia/cmake/project_1/TutorialConfig.h
+ /home/krushnp/academia/cmake/project_1/TutorialConfig.h \
+ /home/krushnp/academia/cmake/project_1/MathFunctions/MathFunctions.h

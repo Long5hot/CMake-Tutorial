@@ -1,7 +1,9 @@
 #include<iostream>
 #include<sstream>
 #include<algorithm>
+
 #include "TutorialConfig.h"
+#include "MathFunctions.h"
 
 struct student {
   std::string name;
@@ -95,6 +97,10 @@ int main(int argc, char **argv) {
     std::cout << "Usage: " << argv[0] << " number" << std::endl;
     return 1;
   }
+
+  const double outputValue = mathfunctions::sqrt(10.0);
+
+  std::cout << outputValue << std::endl;
 
   int nstudents;
   std::cout << "Enter the number of students : " ;

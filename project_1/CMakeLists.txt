@@ -4,12 +4,16 @@ project(Tutorial VERSION 1.0)
 
 configure_file(TutorialConfig.h.in TutorialConfig.h)
 
-
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
+add_subdirectory(MathFunctions)
+
 add_executable(Tutorial DynamicsizeArray.cpp)
+
+target_link_libraries(Tutorial PUBLIC MathFunctions)
 
 target_include_directories(Tutorial PUBLIC
                            "${PROJECT_BINARY_DIR}"
+                           "${PROJECT_SOURCE_DIR}/MathFunctions"
                            )

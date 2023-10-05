@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krushnp/academia/cmake/project_1/CMakeFiles /home/krushnp/academia/cmake/project_1//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/krushnp/academia/cmake/project_1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/krushnp/academia/cmake/project_1/CMakeFiles /home/krushnp/academia/cmake/project_1/MathFunctions//CMakeFiles/progress.marks
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/krushnp/academia/cmake/project_1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,68 +103,80 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/krushnp/academia/cmake/project_1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named Tutorial
+# Convenience name for target.
+MathFunctions/CMakeFiles/MathFunctions.dir/rule:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/MathFunctions.dir/rule
+.PHONY : MathFunctions/CMakeFiles/MathFunctions.dir/rule
 
-# Build rule for target.
-Tutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tutorial
-.PHONY : Tutorial
-
-# fast build rule for target.
-Tutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/build
-.PHONY : Tutorial/fast
-
-#=============================================================================
-# Target rules for targets named MathFunctions
-
-# Build rule for target.
-MathFunctions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions
+# Convenience name for target.
+MathFunctions: MathFunctions/CMakeFiles/MathFunctions.dir/rule
 .PHONY : MathFunctions
 
 # fast build rule for target.
 MathFunctions/fast:
-	$(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
-DynamicsizeArray.o: DynamicsizeArray.cpp.o
-.PHONY : DynamicsizeArray.o
+MathFunctions.o: MathFunctions.cxx.o
+.PHONY : MathFunctions.o
 
 # target to build an object file
-DynamicsizeArray.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o
-.PHONY : DynamicsizeArray.cpp.o
+MathFunctions.cxx.o:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.o
+.PHONY : MathFunctions.cxx.o
 
-DynamicsizeArray.i: DynamicsizeArray.cpp.i
-.PHONY : DynamicsizeArray.i
+MathFunctions.i: MathFunctions.cxx.i
+.PHONY : MathFunctions.i
 
 # target to preprocess a source file
-DynamicsizeArray.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.i
-.PHONY : DynamicsizeArray.cpp.i
+MathFunctions.cxx.i:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.i
+.PHONY : MathFunctions.cxx.i
 
-DynamicsizeArray.s: DynamicsizeArray.cpp.s
-.PHONY : DynamicsizeArray.s
+MathFunctions.s: MathFunctions.cxx.s
+.PHONY : MathFunctions.s
 
 # target to generate assembly for a file
-DynamicsizeArray.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutorial.dir/build.make CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.s
-.PHONY : DynamicsizeArray.cpp.s
+MathFunctions.cxx.s:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/MathFunctions.cxx.s
+.PHONY : MathFunctions.cxx.s
+
+mysqrt.o: mysqrt.cxx.o
+.PHONY : mysqrt.o
+
+# target to build an object file
+mysqrt.cxx.o:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+.PHONY : mysqrt.cxx.o
+
+mysqrt.i: mysqrt.cxx.i
+.PHONY : mysqrt.i
+
+# target to preprocess a source file
+mysqrt.cxx.i:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+.PHONY : mysqrt.cxx.i
+
+mysqrt.s: mysqrt.cxx.s
+.PHONY : mysqrt.s
+
+# target to generate assembly for a file
+mysqrt.cxx.s:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+.PHONY : mysqrt.cxx.s
 
 # Help Target
 help:
@@ -175,10 +187,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MathFunctions"
-	@echo "... Tutorial"
-	@echo "... DynamicsizeArray.o"
-	@echo "... DynamicsizeArray.i"
-	@echo "... DynamicsizeArray.s"
+	@echo "... MathFunctions.o"
+	@echo "... MathFunctions.i"
+	@echo "... MathFunctions.s"
+	@echo "... mysqrt.o"
+	@echo "... mysqrt.i"
+	@echo "... mysqrt.s"
 .PHONY : help
 
 
@@ -190,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/krushnp/academia/cmake/project_1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

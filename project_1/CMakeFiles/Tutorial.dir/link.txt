@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o -o Tutorial 
+/usr/bin/c++ CMakeFiles/Tutorial.dir/DynamicsizeArray.cpp.o -o Tutorial  MathFunctions/libMathFunctions.a 
