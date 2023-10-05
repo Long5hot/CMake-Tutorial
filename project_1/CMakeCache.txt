@@ -233,6 +233,9 @@ Tutorial_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 Tutorial_SOURCE_DIR:STATIC=/home/krushnp/academia/cmake/project_1
 
+//Use tutorial provided math implementation
+USE_MYMATH:BOOL=OFF
+
 
 ########################
 # INTERNAL cache entries

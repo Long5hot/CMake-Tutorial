@@ -142,6 +142,19 @@ MathFunctions/fast:
 	$(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
+#=============================================================================
+# Target rules for targets named SqrtLibrary
+
+# Build rule for target.
+SqrtLibrary: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SqrtLibrary
+.PHONY : SqrtLibrary
+
+# fast build rule for target.
+SqrtLibrary/fast:
+	$(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/build
+.PHONY : SqrtLibrary/fast
+
 DynamicsizeArray.o: DynamicsizeArray.cpp.o
 .PHONY : DynamicsizeArray.o
 
@@ -175,6 +188,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MathFunctions"
+	@echo "... SqrtLibrary"
 	@echo "... Tutorial"
 	@echo "... DynamicsizeArray.o"
 	@echo "... DynamicsizeArray.i"

@@ -130,6 +130,20 @@ MathFunctions/fast:
 	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
+# Convenience name for target.
+MathFunctions/CMakeFiles/SqrtLibrary.dir/rule:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
+.PHONY : MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
+
+# Convenience name for target.
+SqrtLibrary: MathFunctions/CMakeFiles/SqrtLibrary.dir/rule
+.PHONY : SqrtLibrary
+
+# fast build rule for target.
+SqrtLibrary/fast:
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/build
+.PHONY : SqrtLibrary/fast
+
 MathFunctions.o: MathFunctions.cxx.o
 .PHONY : MathFunctions.o
 
@@ -159,7 +173,7 @@ mysqrt.o: mysqrt.cxx.o
 
 # target to build an object file
 mysqrt.cxx.o:
-	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.o
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.o
 .PHONY : mysqrt.cxx.o
 
 mysqrt.i: mysqrt.cxx.i
@@ -167,7 +181,7 @@ mysqrt.i: mysqrt.cxx.i
 
 # target to preprocess a source file
 mysqrt.cxx.i:
-	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.i
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.i
 .PHONY : mysqrt.cxx.i
 
 mysqrt.s: mysqrt.cxx.s
@@ -175,7 +189,7 @@ mysqrt.s: mysqrt.cxx.s
 
 # target to generate assembly for a file
 mysqrt.cxx.s:
-	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/MathFunctions.dir/build.make MathFunctions/CMakeFiles/MathFunctions.dir/mysqrt.cxx.s
+	cd /home/krushnp/academia/cmake/project_1 && $(MAKE) $(MAKESILENT) -f MathFunctions/CMakeFiles/SqrtLibrary.dir/build.make MathFunctions/CMakeFiles/SqrtLibrary.dir/mysqrt.cxx.s
 .PHONY : mysqrt.cxx.s
 
 # Help Target
@@ -187,6 +201,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MathFunctions"
+	@echo "... SqrtLibrary"
 	@echo "... MathFunctions.o"
 	@echo "... MathFunctions.i"
 	@echo "... MathFunctions.s"
