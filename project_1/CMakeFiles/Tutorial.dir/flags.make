@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/krushnp/academia/cmake/project_1 -I/home/krushnp/academia/cmake/project_1/MathFunctions
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
 

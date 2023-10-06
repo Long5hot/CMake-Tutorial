@@ -11,6 +11,7 @@ add_library(SqrtLibrary STATIC
 
 if (USE_MYMATH)
   target_compile_definitions(MathFunctions PRIVATE "USE_MYMATH")
+  target_link_libraries(SqrtLibrary PUBLIC tutorial_compiler_flags)
   target_link_libraries(MathFunctions PUBLIC SqrtLibrary)
 endif()
 

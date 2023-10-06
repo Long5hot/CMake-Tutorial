@@ -6,5 +6,5 @@ CXX_DEFINES = -DUSE_MYMATH
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -std=gnu++14
+CXX_FLAGS = -Wall -Wextra -Wshadow -Wformat=2 -Wunused
 
