@@ -19,4 +19,14 @@ target_include_directories(MathFunctions
                            INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}
                            )
 
+set(installable_libs MathFunctions )
+if(TARGET SqrtLibrary)
+  list(APPEND installable_libs SqrtLibrary)
+endif()
+install(TARGETS ${installable_libs} DESTINATION lib)
+
+install(FILES MathFunctions.h DESTINATION include)
+
+
+
 

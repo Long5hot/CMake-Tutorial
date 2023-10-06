@@ -1,7 +1,15 @@
 /home/krushnp/academia/cmake/project_1/CMakeFiles/Tutorial.dir
 /home/krushnp/academia/cmake/project_1/CMakeFiles/edit_cache.dir
 /home/krushnp/academia/cmake/project_1/CMakeFiles/rebuild_cache.dir
+/home/krushnp/academia/cmake/project_1/CMakeFiles/list_install_components.dir
+/home/krushnp/academia/cmake/project_1/CMakeFiles/install.dir
+/home/krushnp/academia/cmake/project_1/CMakeFiles/install/local.dir
+/home/krushnp/academia/cmake/project_1/CMakeFiles/install/strip.dir
 /home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/MathFunctions.dir
 /home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/SqrtLibrary.dir
 /home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/edit_cache.dir
 /home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/rebuild_cache.dir
+/home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/list_install_components.dir
+/home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/install.dir
+/home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/install/local.dir
+/home/krushnp/academia/cmake/project_1/MathFunctions/CMakeFiles/install/strip.dir

@@ -1,0 +1,5 @@
+/home/krushnp/academia/cmake/project_1/./install/lib/libMathFunctions.a
+/home/krushnp/academia/cmake/project_1/./install/lib/libSqrtLibrary.a
+/home/krushnp/academia/cmake/project_1/./install/include/MathFunctions.h
+/home/krushnp/academia/cmake/project_1/./install/bin/Tutorial
+/home/krushnp/academia/cmake/project_1/./install/include/TutorialConfig.h
